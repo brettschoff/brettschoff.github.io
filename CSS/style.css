@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #9ac6d5;
+}
+
+main {
+  flex: 1 0 auto;
+}
+footer.page-footer {
+  padding: 0 0 0 5px;
+  text-align: right;
+}
+
+#pic {
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+}
+#contact {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+#skill-pic {
+  height: 60px;
+  width: 60px;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+a {
+  text-decoration: none;
+  display: flex;
+}
+#linked-url {
+  color: black;
+  align-self: center;
+  padding-left: 10px;
+}
+#github-url {
+  color: rgb(77, 76, 76);
+  align-self: center;
+  padding-left: 10px;
+}
+#mail-url {
+  color: black;
+  align-self: center;
+  padding-left: 10px;
+}
+#skills-title {
+  padding-bottom: 10px;
+}
+#about-me {
+  padding-left: 10px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+.about-me {
+  background-color: #cbaca8;
+  height: 600px;
+}
+#about-me-p {
+  padding: 5px 300px 5px 10px;
+  border-left: solid 10px red;
+  margin-left: 450px;
+  font-size: 20px;
+}
+#about-me-p2 {
+  padding: 5px 300px 5px 10px;
+  margin-left: 430px;
+  font-size: 18px;
+}
+.self-picture {
+  height: 800px;
+  width: auto;
+  background-image: url("https://i.imgur.com/MXyIZ4T.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#title {
+  align-self: flex-end;
+  color: white;
+  padding: 0 10px 40px 0;
+  font-family: "Playfair Display", serif;
+}
+
+#navbar {
+  background-color: #69cfe6;
+}
+#skills {
+  height: 800px;
+}
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  width: 350px;
+  height: 300px;
+}
+.projects {
+  text-align: center;
+  background-color: #cbaca8;
+  height: 800px;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
