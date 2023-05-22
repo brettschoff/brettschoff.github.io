@@ -76,20 +76,22 @@ a {
   font-size: 18px;
 }
 .self-picture {
-  height: 95vh;
+  height: 94vh;
   width: auto;
   background-image: url("https://i.imgur.com/MXyIZ4T.jpg");
   background-size: cover;
   display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: end;
+  justify-content: flex-end;
 }
 
 #title {
   align-self: flex-end;
   color: white;
-  padding: 0 10px 40px 0;
+  padding: 0 10px 0 0;
   font-family: "Playfair Display", serif;
+  margin: 0 0 5px 0;
 }
 
 #navbar {
@@ -128,4 +130,9 @@ h2 {
 }
 .footer-contact {
   display: flex;
+}
+#about-me-a{
+  padding: 5px 300px 5px 10px;
+  margin-left: 800px;
+  font-size: 18px;
 }
