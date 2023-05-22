@@ -18,6 +18,3 @@ $('#portfolio-btn').click(function() {
     $('html,body').animate({
         scrollTop: $('.projects').offset().top}, 'slow');
 });
-$('#waves-effect waves-light btn modal-trigger').ready(function(){
-    $('.modal').modal();
-  });
