@@ -14,8 +14,8 @@ footer.page-footer {
 }
 
 #pic {
-  height: 50px;
-  width: 50px;
+  height: 25px;
+  width: 25px;
   margin-left: 5px;
 }
 #contact {
@@ -119,4 +119,13 @@ h3 {
 }
 .card-image img {
   height: 170px;
+}
+h2 {
+  font-weight: 600;
+}
+.nav-btn {
+  font-size: 20px;
+}
+.footer-contact {
+  display: flex;
 }

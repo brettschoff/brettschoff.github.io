@@ -11,10 +11,7 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
     <script
       defer
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"
@@ -26,10 +23,11 @@
     <nav>
       <div class="nav-wrapper" id="navbar">
         <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a id="about-btn">About me</a></li>
-          <li><a id="skills-btn">Skills</a></li>
-          <li><a id="contact-btn">Contact</a></li>
-          <li><a id="portfolio-btn">Portfolio</a></li>
+          <li><a id="about-btn" class="nav-btn">About me</a></li>
+          <li><a id="skills-btn" class="nav-btn">Skills</a></li>
+          <li><a id="contact-btn" class="nav-btn">Contact</a></li>
+          <li><a id="portfolio-btn" class="nav-btn">Portfolio</a></li>
+          <li><a class='nav-btn' href='/PDFS/Brett_Schoff_Resume  .pdf' download>Resume</a></li>
         </ul>
       </div>
     </nav>
@@ -201,43 +199,48 @@
         </div>
       </div>
     </div>
-    <div class="contact">
-      <h3 id="contact">Contact</h3>
-      <div class="linkedin" id="contact">
+    <footer class="page-footer blue darken-1">
+      <div class="footer-contact">
+        <a href="mailto:brett.schoff@gmail.com">
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/009/911/504/small/gmail-logotype-flat-illustration-free-vector.jpg"
+          alt="Email"
+          id="pic"
+          class="circle"
+          class="contact-circle"
+        />
+      </a>
+      <a href="https://github.com/brettschoff"
+          ><img
+            src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894__480.png"
+            alt="Github"
+            class="circle"
+            id="pic"
+            class="contact-circle"
+          />
+          </a>
         <a href="https://www.linkedin.com/in/brettmichaelschoff/"
           ><img
             src="https://pbs.twimg.com/profile_images/1508518003184349187/1KQYoqPY_400x400.png"
             alt="Linkedin"
             id="pic"
             class="circle"
-          /><span id="linked-url">linkedin.com/in/brettmichaelschoff</span></a
-        >
-      </div>
-      <div class="github" id="contact">
-        <a href="https://github.com/brettschoff"
-          ><img
-            src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894__480.png"
-            alt="Github"
-            class="circle"
-            id="pic"
-          /><span id="github-url">github.com/brettschoff</span></a
-        >
-      </div>
-      <div class="mail" id="contact">
-        <a href="mailto:brett.schoff@gmail.com">
-          <img
-            src="https://static.vecteezy.com/system/resources/thumbnails/009/911/504/small/gmail-logotype-flat-illustration-free-vector.jpg"
-            alt="Email"
-            id="pic"
+            class="contact-circle"
           />
-          <span id="mail-url">Brett.schoff@gmail.com</span>
-        </a>
-      </div>
+          </a>
     </div>
-    <footer class="page-footer blue darken-1">
       <div class="footer-copyright">
         <div class="right">© 2023 Brett Schoff</div>
       </div>
     </footer>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+    </div>
   </body>
 </html>
